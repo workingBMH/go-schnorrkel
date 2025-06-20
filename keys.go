@@ -214,6 +214,13 @@ func (s *SecretKey) Encode() [SecretKeySize]byte {
 	return s.key
 }
 
+func (secretKey *SecretKey) EncodeWithNonce() [SecretKeySize + 32]byte {
+	enc := [SecretKeySize + 32]byte{}
+	copy(enc[:SecretKeySize], secretKey.key[:])
+	copy(enc[SecretKeySize:], secretKey.nonce[:])
+	return enc
+}
+
 // Public gets the public key corresponding to this SecretKey
 func (s *SecretKey) Public() (*PublicKey, error) {
 	e := r255.NewElement()
