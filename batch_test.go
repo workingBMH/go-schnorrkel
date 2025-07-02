@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ChainSafe/go-schnorrkel"
+	"github.com/workingBMH/go-schnorrkel"
 
 	"github.com/gtank/merlin"
 	"github.com/stretchr/testify/require"

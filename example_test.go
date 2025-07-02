@@ -3,8 +3,8 @@ package schnorrkel_test
 import (
 	"fmt"
 
-	"github.com/ChainSafe/go-schnorrkel"
 	"github.com/gtank/merlin"
+	"github.com/workingBMH/go-schnorrkel"
 )
 
 func ExampleMiniSecretKey() {

@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ChainSafe/go-schnorrkel"
+	"github.com/workingBMH/go-schnorrkel"
 
 	"github.com/stretchr/testify/require"
 )

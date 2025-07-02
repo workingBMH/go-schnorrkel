@@ -1,4 +1,4 @@
-module github.com/ChainSafe/go-schnorrkel
+module github.com/workingBMH/go-schnorrkel
 
 go 1.21
 

@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ChainSafe/go-schnorrkel"
 	r255 "github.com/gtank/ristretto255"
+	"github.com/workingBMH/go-schnorrkel"
 
 	"github.com/gtank/merlin"
 	"github.com/stretchr/testify/require"
