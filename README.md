@@ -6,7 +6,7 @@
 
 This repo contains the Go implementation of the sr25519 signature algorithm (schnorr over ristretto25519). The existing Rust implementation is [here.](https://github.com/w3f/schnorrkel)
 
-This library is currently able to create sr25519 keys, import sr25519 keys, and sign and verify messages. It is interoperable with the Rust implementation. 
+This library is currently able to create sr25519 keys, import sr25519 keys, and sign and verify messages. It is interoperable with the Rust implementation.
 
 The BIP39 implementation in this library is compatible with the rust [substrate-bip39](https://github.com/paritytech/substrate-bip39) implementation.  Note that this is not a standard bip39 implementation.
 
@@ -20,13 +20,13 @@ go 1.16
 
 Example: key generation, signing, and verification
 
-```
-package main 
+```go
+package main
 
 import (
 	"fmt"
-	
-	schnorrkel "github.com/ChainSafe/go-schnorrkel"
+
+	schnorrkel "github.com/workingBMH/go-schnorrkel"
 )
 
 func main() {
@@ -56,4 +56,4 @@ func main() {
 }
 ```
 
-Please see the [godocs](https://pkg.go.dev/github.com/ChainSafe/go-schnorrkel) for more usage examples.
+Please see the [godocs](https://pkg.go.dev/github.com/workingBMH/go-schnorrkel) for more usage examples.
